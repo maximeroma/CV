@@ -73,6 +73,7 @@ i{
 
 .img{
   width:100%;
+  filter: grayscale(100%);
 }
 
 .section-droite{
@@ -154,7 +155,7 @@ i{
 }
 
 @media (max-width: 1028px){
-  
+
   .page{
     grid-template-columns: 1fr;
   }
@@ -193,7 +194,7 @@ i{
 
   .block1{
     margin:0;
-    padding-top: -6em; 
+    padding-top: -6em;
   }
 
   .up{
