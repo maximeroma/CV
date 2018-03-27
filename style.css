@@ -73,13 +73,17 @@ i{
 
 .img{
   width:100%;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 }
 
 .section-droite{
   display: grid;
   grid-template-rows: 1fr;
   grid-gap: 1em;
+}
+
+.section-droite .titre h1 {
+  font-size: 4em;
 }
 
 .section-droite a{
